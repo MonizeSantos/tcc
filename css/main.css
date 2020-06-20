@@ -1,0 +1,743 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+body {
+width: 980px;
+height: 100%;
+margin: 0 auto;
+font-family: 'Open Sans', sans-serif;
+}
+ul {
+padding: 0px!important;
+}
+.menu-principal {
+width: 100%;
+background-color: black;
+height: 80px;
+}
+main, .content {
+margin: 0 auto;
+width: 980px;
+position: relative;
+color: lightgreyS;
+}
+.logotipo {
+float: left;
+padding: 10px;
+width: 70%;
+}
+.btn-terceiro {
+        background-color: #00bac6;
+        border: 1px solid #00bac6;
+        margin-top: 20px;
+        margin-left: -160px;
+}
+.btn-terceiro:hover {
+    background-color: white;
+    border: 1px solid #00bac6;
+    color: #00bac6;
+}
+.carrinhocompras {
+    display: inline-block;
+    margin-top: -40px;
+    margin-left: 100px;
+}
+.texto-destaque1 h1 {
+    margin-top: -200px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+.texto-destaque1 p {
+    margin-left: 35px;
+    text-align: justify;
+}
+.texto-destaque2 h1 {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+.texto-destaque2 p {
+    margin-left: 35px;
+    text-align: justify;
+}
+
+.header-2 {
+background-color: #ffffff;
+width: 980px;
+margin: 0 auto;
+padding: 3px;
+}
+.menu-urls{
+border-bottom: 3px solid whitesmoke;
+height: 60px;
+}
+.menu ul li {
+display: inline-block;
+margin-left: 15px;
+line-height: none;
+float: left;
+height: 40px;
+}
+.menu ul li:hover {
+border-bottom: 3px solid #00bac6;
+}
+.menu ul li a:hover {
+color: #00bac6;
+}
+.menu ul li a {
+color: #8b8b8b;
+text-decoration: none;
+font-size: 17px;
+text-transform: capitalize; 
+}
+.menu {
+width: 89%;
+float: left;
+}
+.busca {
+width: 11%;
+float: right;
+text-align: center;
+}
+.busca input {
+height: 25px;
+padding: 10px;
+}
+.col-100 {
+width: 100%;
+float: left;
+position: relative;
+}
+button.slick-prev {
+display: inline-block;
+font-size: 0px;
+border: none;
+width: 25px;
+height: 51px;
+z-index: 9;
+position: absolute;
+background-color: transparent;
+background-image: url(../img/setae.png);
+top: 25%;
+left: 20%;
+margin-left:-120px;
+}
+button.slick-next {
+display: inline-block;
+font-size: 0px;
+border: none;
+width: 25px;
+height: 51px;
+z-index: 9;
+position: absolute;
+background-color: transparent;
+background-image: url(../img/Setad.png);
+top: 25%;
+right: 20%;
+margin-right:-120px;
+}
+.slick-list {
+width: 100%;
+}
+.slick-initialized {
+overflow: hidden;
+}
+.slick-dots li button {
+font-size: 0px;
+border: 4px solid white;
+width: 20px;
+height: 20px;
+background: transparent;
+border-radius: 50%;
+cursor: pointer;
+}
+.slick-dots {
+margin: 0 auto;
+width: 50%;
+position: absolute;
+left: 42%;
+top: 55%;
+}
+li.slick-active button {
+background: #00bac6;
+}
+.slick-dots li {
+padding-left: 10px;
+display: inline-block;
+}
+.texto-destaque1{
+    margin-top:-250px;
+}
+.texto-destaque {
+text-align: center;
+}
+.texto-destaque h1 {
+    color: black;
+    margin: 0 auto;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.texto-destaque strong {
+    color: black;
+}
+.texto-destaque p {
+color: black;
+font-size: 15px;
+}
+.adress-footer {
+width: 980px;
+float: left;
+padding: 0 40px 50px;
+background: white;
+border-top: 2px solid #00bac6;
+}
+.logo-footer {
+float: left;
+margin-right: 50px;
+}
+.text-adress {
+width: 80%;
+float: left;
+}
+.text-adress strong {
+width: 100%;
+float: left;
+margin-top: 20px;
+color: #00bac6;
+font-size: 13px;
+text-transform: uppercase;
+}
+.text-adress address {
+margin-bottom: 10px;
+font-size: 12px;
+color: black;
+}
+.text-adress p {
+margin: 10px 0 15px;
+font-size: 10px;
+color: black;
+line-height: 14px;
+}
+.btn-budget {
+    background-color: #00bac6;
+    border: 1px solid #00bac6;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+.Formequip {
+    display: flex;
+    flex-direction: column;
+    margin-top:-200px;
+}
+.col-200 {
+width: 100%;
+float: left;
+position: relative;
+}
+/* Fim da Página Index */
+
+/*Inicio cadlogin nova*/
+
+.primeiravez{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+
+.user p{
+    color: white;
+}
+
+/*Fim cadlogin nova*/
+
+/* Início da Página  cadlogin anterior*/
+.container {
+border: 2px solid;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+background-color: lightgrey;
+}
+.content {
+    background-color: white;
+    width: 980px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-radius: 15px;
+}
+.content::before  {
+    content: "";
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    position: absolute;
+    background-color: #00bac6;
+    width: 40%;
+    height: 100%;
+
+
+    left: 0%;
+}
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.title-primary {
+    color: white;
+}
+.title-second {
+    color: #00bac6;
+    margin-block-end: auto;
+    margin-block-start: auto;
+    margin-top: 20px;
+}
+.description {
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    line-height: 30px;
+}
+.description-primary {
+color: white;
+}
+.description-secondary {
+    color: #7f8c8d;
+    margin-block-start: auto;
+    margin-block-end: auto;
+    margin-top: -10px;
+}
+.btn {
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 175px;
+    align-self: center;
+    border-width: 0px;
+}
+.btn-primary {
+background-color: transparent;
+border: 1px solid white;
+transition: background-color .5s;
+}
+.btn-primary:hover {
+background-color: white;
+color: #00bac6;
+}
+.btn-secondary {
+    background-color: #00bac6;
+    border: 1px solid #00bac6;
+    transition: background-color .5s;
+}
+.btn-secondary:hover {
+    background-color: white;
+    border: 1px solid #00bac6;
+    color: #00bac6;
+}
+.first-content {
+    display: flex;
+}
+.first-content .second-column {
+    z-index: 11;
+}
+.first-column {
+    text-align: center;
+    width: 40%;
+    z-index: 10;
+}
+.second-column {
+    width: 60%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-social-media:not(:first-child) {
+    margin-left: 10px;
+}
+.link-social-media .item-social-media {
+    transition: background-color .5s;
+}
+.link-social-media:hover .item-social-media{
+    background-color: #00bac6 ;
+    color: white;
+    border-color: #00bac6;
+}
+.list-social-media {
+    display: flex;
+    list-style-type: none;
+}
+.item-social-media {
+    border: 1px solid #bdc3c7;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #95a5a6;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+.form input {
+    height: 45px;
+    border: none;
+    background-color: #ecf0f1;
+    width: 100%;
+}
+input:-webkit-autofill
+{
+-webkit-box-shadow: 0 0 0px 1000px #ecf0f1 inset !important;
+-webkit-text-fill-color: #000000 !important ;
+}
+.label-input {
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.icon-modify {
+    color: #7f8c8d;
+    padding: 0 5px;
+}
+/*Fim first content*/
+
+/*Início second content*/
+
+.second-content {
+    position: absolute;
+    display: flex;
+}
+.second-content .first-column {
+    order: 2;
+    z-index: -1;
+}
+.second-content .second-content {
+    order: 1;
+    z-index: -1;
+}
+.senha {
+    color: #34495e;
+    font-size: 14px;
+    margin: 15px 0;
+    text-align: center;
+}
+.senha::first-letter {
+    text-transform: capitalize;
+}
+
+.sign-in-js .first-content .first-column {
+    z-index: -1;
+}
+
+
+.sign-in-js .second-content .second-column {
+    z-index: 11;
+}
+
+.sign-in-js .second-content .first-column {
+    z-index: 13;
+}
+
+.sign-in-js .content::before {
+    left: 60%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    animation: slidein 3s;
+    z-index: 12;
+}
+
+.sign-up-js .content::before {
+    animation: slideout 3s;
+
+    z-index: 12;
+}
+.sign-up-js .second-content .first-column
+.sign-up-js .second-content .second-column {
+z-index: -1;
+}
+
+.sign-up-js .first-content .second-column {
+    z-index: 11;
+}
+
+.sign-up-js .first-content .first-column {
+    z-index: 13;
+}
+
+.sign-in-js .first-content .second-column {
+    z-index: -1;
+    position: relative;
+    animation: deslocamentoidae 3s;
+}
+
+.sign-up-js .second-content .second-column {
+    position: relative;
+    z-index: -1;
+    animation: deslocamentovoltad 3s;
+}
+
+/*Animação para o conteúdo*/
+
+@keyframes deslocamentoidae {
+    from {
+        left:0;
+        opacity: 1;
+        z-index: 12;
+    }
+
+    25% {
+        left: -80px;
+        opacity: .5;
+    }
+
+    50% {
+        left: -100px;
+        opacity: .2;
+    }
+
+    to {
+        left: -110px;
+        z-index: -1;
+    }
+}
+
+
+@keyframes deslocamentovoltad {
+    from {
+        left:0;
+        z-index: 12;
+    }
+
+    25% {
+        left: 80px;
+        
+    }
+
+    50% {
+        left: 100px;
+        
+    }
+
+    to {
+        left: 110px;
+        z-index: -1;
+    }
+}
+
+/*Animação CSS*/
+
+@keyframes slidein {
+    from {
+        left: 0;
+        width: 40%;
+    }
+
+    25% {
+        left: 12%;
+        width: 50%;
+    }
+
+    50% {
+        left: 25%;
+        width: 60%;
+    }
+
+    75% {
+        left: 45%;
+        width: 50%;
+    }
+
+    to {
+        left: 60%;
+        width: 40%;
+    }
+}
+
+/*Animação CSS 2*/
+
+@keyframes slideout {
+    from {
+        left: 60%;
+        width: 40%;
+    }
+
+    25% {
+        left: 45%;
+        width: 50%;
+    }
+
+    50% {
+        left: 25%;
+        width: 60%;
+    }
+
+    75% {
+        left: 12%;
+        width: 50%;
+    }
+
+    to {
+        right: 0;
+        width: 40%;
+    }
+}
+/*Fim da página cad login anterior*/
+
+/*Início da Página Institucional*/
+
+.container2 {
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: whitesmoke;
+    }
+/*Fim da Página Institucional*/
+
+/*Início da Página Dia a Dia*/
+
+/* Fim da página dia a dia*/
+
+/*Início da página soluções corporativas*/
+
+/* Final da página soluções corporativas*/
+
+/*Início da página gamers e streamers */
+
+/* Final da página gamers e streamers*/
+
+/*Início da página Contato*/
+.content00{
+    display: flex;
+    justify-content: center;
+    margin-left: -475px;
+    padding: 10px;
+    
+}
+.contatos h3{
+    color: #00bac6;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+.contatos{
+    width: 100%;
+    max-width: 500px;
+}
+.field{
+    padding:10px;
+    margin-bottom:15px;
+    border:1px solid #dddddd;
+    border-radius: 5px;
+}
+
+/*Fim da página contato */
+
+
+/*- PÁGINAS SECUNDÁRIAS-*/
+/*Início Quem Somos*/
+
+.texto-destaque3 h1 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+.texto-destaque3 p {
+    margin-left: 35px;
+    text-align: justify;
+}
+/*.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+    }*/
+    .texto-destaque4 h1 {
+        margin-top: 30px;
+        margin-bottom: 25px;
+        text-align: left;
+    }
+    .texto-destaque4 p {
+        margin-left: 35px;
+        text-align: justify;
+    }
+    .texto-destaque5 h1 {
+        margin-top: 50px;
+        margin-bottom: 25px;
+        text-align: left;
+    }
+    .texto-destaque5 p {
+        margin-left: 35px;
+        text-align: justify;
+    }
+    /*Fim página quem somos*/
+
+    /*Início página trocas e devoluções*/
+    .texto-destaque6 h1 {
+        margin-top: 30px;
+        margin-bottom: 25px;
+        text-align: center;
+        color: #00bac6
+    }
+    .texto-destaque6 h2 {
+        margin-top: 30px;
+        margin-bottom: 25px;
+        text-align: left;
+        color: #00bac6
+    }
+    .texto-destaque6 p {
+        margin-left: 35px;
+        text-align: justify;
+    }
+    .texto-destaque7 h2 {
+        margin-top: 50px;
+        margin-bottom: 25px;
+        text-align: left;
+        color: #00bac6
+    }
+    .texto-destaque7 h3 {
+        margin-top: 50px;
+        margin-bottom: 25px;
+        text-align: left;
+        color: #00bac6
+    }
+    .texto-destaque7 p {
+        margin-left: 35px;
+        text-align: justify;
+    }
+    /*Fim página trocas e devoluções*/
+
+    /*Início Política de Segurança e Privacidade*/
+    .texto-destaque8 h1 {
+        margin-top: 30px;
+        margin-bottom: 25px;
+        text-align: center;
+        color: #00bac6
+    }
+    .texto-destaque8 h2 {
+        margin-top: 30px;
+        margin-bottom: 25px;
+        text-align: left;
+        color: #00bac6
+    }
+    /*Fim Política de Segurança e Privacidade*/
+
+    /*Início Termos e condições*/
+
+    /*Fim Termos e condições*/
+
+    /*LINHA ALFA*/
+    
